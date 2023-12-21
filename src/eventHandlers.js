@@ -11,3 +11,4 @@ allImages.forEach(image => {
     event.preventDefault();
   });
 });
+
