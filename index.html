@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/Copilot.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/index.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Preahvihear&display=swap" rel="stylesheet">
+    <title>Tic-tac-toe 👹</title>
+    
+  </head>
+  <body id="body">
+<h1 id="title">Tic-tac-toe</h1>
+    <section id="win-container">  
+      <div id="win">
+          <div id="win-text-container">
+            <div id="winner">
+              <img id="winner-img" src="public/X.svg" alt="Winner image">
+            </div>
+            <h1 id="win-text">YOU ARE A WINNER! 🎉</h1>
+          </div>
+          <div class="play-again-section">
+            <h2 id="play-again-text">Do you wanna play again?</h2>
+            <button id="play-again">Play Again</button>
+          </div>
+      </div>
+    </section>
+
+    <article id="tic-tac-toe">
+      <table id="board" >
+        <tbody>
+          <tr>
+            <td id="cell-1" class="cell">O</td>
+            <td id="cell-2" class="cell">&nbsp;</td>
+            <td id="cell-3" class="cell">&nbsp;  </td>
+          </tr>
+          <tr>
+            <td id="cell-4" class="cell">&nbsp;  </td>
+            <td id="cell-5" class="cell">O</td>
+            <td id="cell-6" class="cell">&nbsp; </td>
+          </tr>
+          <tr>
+            <td id="cell-7" class="cell">&nbsp;  </td>
+            <td id="cell-8" class="cell">&nbsp; </td>
+            <td id="cell-9" class="cell">O  </td>
+          </tr>
+        </tbody>
+      </table> 
+      <footer id="footer">
+      <p>Turn: <span id="turn">X</span></p>
+    </footer>
+    </article>
+   
+    <script type="module" src="src/constants.js"></script>
+    <script type="module" src="src/elements.js"></script>
+    <script type="module" src="src/gameLogic.js"></script>
+    <script type="module" src="src/eventHandlers.js"></script>
+  </body>
+</html>

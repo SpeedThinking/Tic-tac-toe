@@ -1,0 +1,9 @@
+export const board = document.getElementById('board');
+export const boardCells = document.getElementsByClassName('cell');
+export const winPage = document.getElementById('win-container');
+export const playAgainButton = document.getElementById('play-again');
+export const winImg = document.getElementById('winner');
+export const winText = document.getElementById('win-text');
+export const title = document.getElementById('title');
+export const statusPlayer = document.getElementById('turn');
+export const playAgainText = document.getElementById('play-again-text');
